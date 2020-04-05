@@ -1,0 +1,41 @@
+{
+  "name": "comments-app",
+  "version": "1.0.0",
+  "description": "comments manager app",
+  "author": "Emad zaibak",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.7",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.10.1",
+    "consola": "^2.11.3",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.12.2",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^2.0.2",
+    "vue-jest": "^4.0.0-0"
+  }
+}
