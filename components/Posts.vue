@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import PostInfo from "./PostInfo"
+import PostInfo from "./PostInfo";
 
 export default {
   components: {
@@ -17,9 +17,9 @@ export default {
     },
   },
   mounted() {
-    this.$store.dispatch("store/fetchPosts")
+    this.$store.dispatch("store/fetchPosts");
   },
-}
+};
 </script>
 
 <style></style>
