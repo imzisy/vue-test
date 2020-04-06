@@ -14,14 +14,12 @@ export default {
   props: ["id"],
   computed: {
     comments() {
-      console.log(this.$store.state.store.comments);
-      return this.$store.state.store.comments;
+      return this.$store.state.store.filteredComments;
     },
   },
   mounted() {
-    this.$store.dispatch("store/fetchComments", this.id)
+    this.$store.dispatch("store/fetchComments", this.id);
   },
- 
 };
 </script>
 

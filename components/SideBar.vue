@@ -18,7 +18,7 @@
             $store.commit('store/SET_SELECTED_FILTER_Value', selectedValue)
           "
         >
-          <option selected disabled>
+          <option selected>
             Choose...
           </option>
           <option value="email">
@@ -43,9 +43,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.container {
-  margin-top: 10px;
-}
-</style>

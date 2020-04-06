@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <side-bar />
-      <comments :id=" $route.params.id" />
+      <comments :id="$route.params.id" />
     </div>
   </div>
 </template>
