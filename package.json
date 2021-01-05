@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.10.1",
     "consola": "^2.11.3",
